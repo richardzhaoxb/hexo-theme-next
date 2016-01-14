@@ -14,7 +14,7 @@ keywords: "Hexo, NexT"
 rss:
 
 # Specify the date when the site was setup
-#since: 2015
+since: 2015
 
 
 
@@ -27,10 +27,10 @@ rss:
 # Remove leading slashes ( "/archives" -> "archives" )
 menu:
   home: /
-  #categories: /categories
-  #about: /about
-  archives: /archives
+  categories: /categories
   tags: /tags
+  archives: /archives
+  about: /about
   #commonweal: /404.html
 
 
@@ -57,7 +57,7 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-#scheme: Mist
+scheme: Mist
 
 
 
@@ -78,9 +78,10 @@ sidebar: post
 
 
 # Social links
-# social:
-  #GitHub:
-  #Others:
+social:
+  GitHub: https://github.com/richardzhaoxb
+  Weibo: http://weibo.com/1905686187
+  Twitter: https://twitter.com/richardzhaoxb1
 
 # Social Icons
 social_icons:
@@ -98,12 +99,6 @@ social_icons:
 #avatar:
 
 
-# Social links
-# social:
-  #GitHub:
-  #Others:
-
-
 # TOC in the Sidebar
 toc:
   enable: true
@@ -114,8 +109,8 @@ toc:
 
 # Creative Commons 4.0 International License.
 # http://creativecommons.org/
-# Available: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
-#creative_commons: by-nc-sa
+Available: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
+creative_commons: by-nc-sa
 #creative_commons:
 
 
@@ -139,14 +134,14 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: normal
+highlight_theme: night eighties
 
 # Automatically scroll page to section which is under <!-- more --> mark.
 scroll_to_more: true
 
 # Automatically Excerpt
 auto_excerpt:
-  enable: false
+  enable: true
   length: 150
 
 # Use Lato font
@@ -159,17 +154,17 @@ use_font_lato: true
 # ---------------------------------------------------------------
 
 # MathJax Support
-mathjax:
+mathjax: true
 
 
 # Swiftype Search API Key
-#swiftype_key:
+#swiftype_key: WmA1UykP7srjXPArCH2Q
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: c89390b1178880581b4f4b1d56b6da70
 
 # Duoshuo ShortName
-#duoshuo_shortname:
+duoshuo_shortname: richardzhaoxb
 
 # Disqus
 #disqus_shortname:
@@ -178,7 +173,7 @@ mathjax:
 #jiathis:
 
 # Share
-#duoshuo_share: true
+duoshuo_share: true
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
